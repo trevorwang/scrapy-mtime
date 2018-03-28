@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOT_NAME	../new/settings.py	/^BOT_NAME = 'new'$/;"	kind:variable	line:12
+CONCURRENT_REQUESTS	../new/settings.py	/^CONCURRENT_REQUESTS = 6$/;"	kind:variable	line:24
+COOKIES_ENABLED	../new/settings.py	/^COOKIES_ENABLED = False$/;"	kind:variable	line:35
+DOWNLOAD_DELAY	../new/settings.py	/^DOWNLOAD_DELAY = 8$/;"	kind:variable	line:29
+MtimeSpider	../new/spiders/mtime.py	/^class MtimeSpider(scrapy.Spider):$/;"	kind:class	line:12
+NEWSPIDER_MODULE	../new/settings.py	/^NEWSPIDER_MODULE = 'new.spiders'$/;"	kind:variable	line:15
+NewDownloaderMiddleware	../new/middlewares.py	/^class NewDownloaderMiddleware(object):$/;"	kind:class	line:59
+NewItem	../new/items.py	/^class NewItem(scrapy.Item):$/;"	kind:class	line:11
+NewPipeline	../new/pipelines.py	/^class NewPipeline(object):$/;"	kind:class	line:9
+NewSpiderMiddleware	../new/middlewares.py	/^class NewSpiderMiddleware(object):$/;"	kind:class	line:11
+ROBOTSTXT_OBEY	../new/settings.py	/^ROBOTSTXT_OBEY = False$/;"	kind:variable	line:21
+SPIDER_MODULES	../new/settings.py	/^SPIDER_MODULES = ['new.spiders']$/;"	kind:variable	line:14
+Selector	../new/spiders/mtime.py	/^from parsel import Selector$/;"	kind:namespace	line:5
+USER_AGENT	../new/settings.py	/^USER_AGENT = 'Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/65.0.3325.181 Safari\/537.36'$/;"	kind:variable	line:19
+__init__.py	../new/__init__.py	1;"	kind:file	line:1
+__init__.py	../new/spiders/__init__.py	1;"	kind:file	line:1
+csv	../new/spiders/mtime.py	/^import csv$/;"	kind:namespace	line:6
+from_crawler	../new/middlewares.py	/^    def from_crawler(cls, crawler):$/;"	kind:member	line:17
+from_crawler	../new/middlewares.py	/^    def from_crawler(cls, crawler):$/;"	kind:member	line:65
+html2Dict	../new/spiders/mtime.py	/^    def html2Dict(self, html):$/;"	kind:member	line:52
+items.py	../new/items.py	1;"	kind:file	line:1
+json	../new/spiders/mtime.py	/^import json$/;"	kind:namespace	line:4
+middlewares.py	../new/middlewares.py	1;"	kind:file	line:1
+mtime.py	../new/spiders/mtime.py	1;"	kind:file	line:1
+name	../new/spiders/mtime.py	/^    name = "mtime"$/;"	kind:variable	line:14
+parse	../new/spiders/mtime.py	/^    def parse(self, response):$/;"	kind:member	line:26
+parseData	../new/spiders/mtime.py	/^    def parseData(self, response):$/;"	kind:member	line:35
+pipelines.py	../new/pipelines.py	1;"	kind:file	line:1
+process_exception	../new/middlewares.py	/^    def process_exception(self, request, exception, spider):$/;"	kind:member	line:92
+process_item	../new/pipelines.py	/^    def process_item(self, item, spider):$/;"	kind:member	line:10
+process_request	../new/middlewares.py	/^    def process_request(self, request, spider):$/;"	kind:member	line:71
+process_response	../new/middlewares.py	/^    def process_response(self, request, response, spider):$/;"	kind:member	line:83
+process_spider_exception	../new/middlewares.py	/^    def process_spider_exception(self, response, exception, spider):$/;"	kind:member	line:38
+process_spider_input	../new/middlewares.py	/^    def process_spider_input(self, response, spider):$/;"	kind:member	line:23
+process_spider_output	../new/middlewares.py	/^    def process_spider_output(self, response, result, spider):$/;"	kind:member	line:30
+process_start_requests	../new/middlewares.py	/^    def process_start_requests(self, start_requests, spider):$/;"	kind:member	line:46
+regex	../new/spiders/mtime.py	/^import regex$/;"	kind:namespace	line:3
+scrapy	../new/items.py	/^import scrapy$/;"	kind:namespace	line:8
+scrapy	../new/spiders/mtime.py	/^import scrapy$/;"	kind:namespace	line:2
+settings.py	../new/settings.py	1;"	kind:file	line:1
+signals	../new/middlewares.py	/^from scrapy import signals$/;"	kind:namespace	line:8
+sleep	../new/spiders/mtime.py	/^    def sleep(self):$/;"	kind:member	line:62
+spider_opened	../new/middlewares.py	/^    def spider_opened(self, spider):$/;"	kind:member	line:102
+spider_opened	../new/middlewares.py	/^    def spider_opened(self, spider):$/;"	kind:member	line:55
+start_requests	../new/spiders/mtime.py	/^    def start_requests(self):$/;"	kind:member	line:17
+time	../new/spiders/mtime.py	/^import time$/;"	kind:namespace	line:7
+tried_times	../new/spiders/mtime.py	/^    tried_times = 0$/;"	kind:variable	line:13
+urls	../new/spiders/mtime.py	/^    urls = []$/;"	kind:variable	line:15
+writeToCsv	../new/spiders/mtime.py	/^    def writeToCsv(self, data):$/;"	kind:member	line:29
