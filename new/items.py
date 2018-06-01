@@ -15,6 +15,7 @@ class NewItem(scrapy.Item):
 
 
 class Movie(scrapy.Item):
+    mid = scrapy.Field()
     name = scrapy.Field()
     english_name = scrapy.Field()
     year = scrapy.Field()
@@ -28,3 +29,6 @@ class Movie(scrapy.Item):
     link = scrapy.Field()
     awards = scrapy.Field()
     nominations = scrapy.Field()
+    rating = scrapy.Field()
+    total_box_office = scrapy.Field()
+    main_actors = scrapy.Field()

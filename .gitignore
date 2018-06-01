@@ -1,4 +1,4 @@
 .scrapy
-*.pyc
+.vscode
 __pycache__
-.vscode/
+.DS_Store
